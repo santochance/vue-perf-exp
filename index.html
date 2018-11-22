@@ -2,7 +2,7 @@
 <script>
   const assets = [{"path":"/^\\/(?:\\/)?$/i","asset":"."},{"path":"/^\\/discover(?:\\/)?$/i","asset":"."},{"path":"/^\\/order\\?(?:\\/)?$/i","asset":"."},{"path":"/^\\/profile(?:\\/)?$/i","asset":"js\\profile.ead82eef.js"},{"path":"/^\\/about(?:\\/)?$/i","asset":"js\\about.70a0ec16.js"}];
   const mode = 'hash';
-  const path = mode === 'hash' ? window.location.hash.match(/\/+([^/?#\r\n]*\/*)*/) : window.location.pathname;
+  const path = mode === 'hash' ? (window.location.hash.match(/\/+([^/?#\r\n]*\/*)*/) || [])[0] : window.location.pathname;
   let index = -1;
   assets.some((asset, i) => path.match(asset.path) && (index = i))
   const url = assets[index] && assets[index].assets
