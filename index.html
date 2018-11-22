@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html lang=en>
-
-<head>
-  <meta charset=utf-8>
-  <meta http-equiv=X-UA-Compatible content="IE=edge">
-  <meta name=viewport content="width=device-width,initial-scale=1">
-  <link rel=icon href=favicon.ico>
-  <title>vue-mini</title>
-  <link href=js/about.10bb5281.js rel=preload as=script>
-  <link href=css/app.e89231c4.css rel=preload as=style>
-  <link href=js/app.1b80bf95.js rel=preload as=script>
-  <link href=js/chunk-vendors.500f9457.js rel=preload as=script>
-  <link href=css/app.e89231c4.css rel=stylesheet>
-</head>
-
-<body><noscript><strong>We're sorry but vue-mini doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
-  <div id=app></div>
-  <script src=https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.runtime.min.js> </script> <script src=https://cdn.jsdelivr.net/npm/vue-router@3.0.1/dist/vue-router.min.js> </script> <script src=https://cdn.jsdelivr.net/npm/vuex@3.0.1/dist/vuex.min.js> </script> <script src=js/chunk-vendors.500f9457.js> </script> <script src=js/app.1b80bf95.js> </script> </body> </html>
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>vue-mini</title><link href=js/about.70a0ec16.js rel=prefetch><link href=js/profile.ead82eef.js rel=prefetch><link href=css/app.e89231c4.css rel=preload as=style><link href=js/app.0de4a8f0.js rel=preload as=script><link href=js/chunk-vendors.500f9457.js rel=preload as=script><link href=css/app.e89231c4.css rel=stylesheet></head><body><noscript><strong>We're sorry but vue-mini doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.runtime.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue-router@3.0.1/dist/vue-router.min.js></script><script src=https://cdn.jsdelivr.net/npm/vuex@3.0.1/dist/vuex.min.js></script><script src=js/chunk-vendors.500f9457.js></script><script src=js/app.0de4a8f0.js></script>
+<script>
+  const assets = [{"path":"/^\\/(?:\\/)?$/i","asset":"."},{"path":"/^\\/discover(?:\\/)?$/i","asset":"."},{"path":"/^\\/order\\?(?:\\/)?$/i","asset":"."},{"path":"/^\\/profile(?:\\/)?$/i","asset":"."},{"path":"/^\\/about(?:\\/)?$/i","asset":"js\\about.70a0ec16.js"}];
+  const mode = 'hash';
+  const path = mode === 'hash' ? window.location.hash.match(/\/+([^/?#\r\n]*\/*)*/) : window.location.pathname;
+  let index = -1;
+  assets.some((asset, i) => path.match(asset.path) && (index = i))
+  const url = assets[index] && assets[index].assets
+  if (url && url !== '.') {
+    const script = document.createElement('script');
+    script.src = url;
+    document.body.appendChild(script);
+  }
+</script>
+</body></html>
