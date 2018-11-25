@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["profile"],{4334:function(t,e,r){"use strict";r.r(e);r("cadf"),r("551c"),r("097d");var a=function(){var t=this,e=t.$createElement,r=t._self._c||e;return r("page",{staticClass:"profile",attrs:{title:"我的",backBtn:!1}},[r("h1",[t._v("This is an profile page")]),r("TabBar",{attrs:{"current-tab":"profile"}})],1)},n=[],i=r("2877"),l={},s=Object(i["a"])(l,a,n,!1,null,null,null);s.options.__file="Profile.vue";var o=s.exports;r.d(e,"default",function(){return o})}}]);
-//# sourceMappingURL=profile.8b570544.js.map
